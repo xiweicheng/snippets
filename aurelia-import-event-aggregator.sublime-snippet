@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+import {
+    EventAggregator
+}
+from 'aurelia-event-aggregator';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-im-event-aggregator</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
