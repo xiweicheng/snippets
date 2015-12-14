@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+    /**
+     * 当数据绑定引擎绑定到视图时被调用
+     * @param  {[object]} ctx 视图绑定上下文环境对象
+     */
+    bind(ctx) {
+		${1:}
+    }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-bind</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+    /**
+     * 控制是否可以导航到当前路由视图模型(ViewModel)
+     * @param  {[object]} params                参数
+     * @param  {[object]} routeConfig           路由配置
+     * @param  {[object]} navigationInstruction 导航指令
+     * @return {[boolean | promise]}            返回一个boolean类型, 一个boolean类型延迟许诺(promise)或者一个导航(navigation)命令.
+     */
+    canActivate(params, routeConfig, navigationInstruction) {
+		${1:}
+    }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-canActivate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

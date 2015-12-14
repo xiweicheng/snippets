@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+    /**
+     * 在视图和视图模型都被创建后调用, 允许访问视图实例对象.
+     * @param  {[object]} view 视图实例对象
+     */
+    created(view) {
+		${1:}
+    }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-created</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+    /**
+     * 在当前视图模型(ViewModel)切换离开后执行一些自定义代码逻辑
+     * @return {[promise]}                      你可以可选的返回一个延迟许诺(promise), 告诉路由等待, 直到你完成你的处理工作.
+     */
+    deactivate() {
+		${1:}
+    }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-deactivate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
