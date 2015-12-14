@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="ui modal">
+    <i class="close icon"></i>
+    <div class="header">
+    	${1:}
+    </div>
+    <div class="content">
+    	${2:}
+    </div>
+    <div class="actions">
+        <div class="ui cancel basic blue button" style="float: left;">取消</div>
+        <div class="ui ok blue button">确认</div>
+    </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>nt-modal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
