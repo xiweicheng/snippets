@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+nsApi.compile('${1:}', ${2:})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ut-api-compile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
