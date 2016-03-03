@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+import {
+    I18N
+}
+from 'aurelia-i18next';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-im-i18n</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
