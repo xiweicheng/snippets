@@ -9,8 +9,7 @@
  * @modified-date ${3:}
  */
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cm-class</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>comment-class</description>  
 	<scope>source.js</scope>
 </snippet>
