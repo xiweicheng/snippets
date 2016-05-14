@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @desc ${1:description}
+ * @author ${2:author}
+ * @date ${3:16/5/11 9:40:12}
+ * @version 1.0.0
+ * @modifier ${2:}
+ * @modified-date ${3:}
+ */
+]]></content>
+	<tabTrigger>cm-class</tabTrigger>
+	<description>comment-class</description>  
+	<scope>source.js</scope>
+</snippet>
