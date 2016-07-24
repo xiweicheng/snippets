@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+import { inject, Lazy } from 'aurelia-framework';
+import { HttpClient, json } from 'aurelia-fetch-client';
+
+@inject(Lazy.of(HttpClient))
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-import-http</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
