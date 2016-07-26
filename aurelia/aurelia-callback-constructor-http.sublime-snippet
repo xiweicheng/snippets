@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+     * 构造函数
+     */
+    constructor(getHttp) {
+        this.http = getHttp();
+    }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au-constructor-http</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
