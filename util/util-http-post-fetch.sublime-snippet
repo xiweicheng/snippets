@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+this.http.fetch(nsApi.url('${1:}'), {
+    method: 'post',
+    body: json({
+        ${2:}
+    })
+}).then((resp) => {
+    // this.${3:} = resp.data;
+    toastr.success('${4:...}');
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ut-http-post-fetch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
