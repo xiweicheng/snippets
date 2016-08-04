@@ -1,8 +1,11 @@
 <snippet>
 	<content><![CDATA[
-this.http.fetch(nsApi.url('${1:}', { ${2:} })).then((resp) => {
-    // this.${3:} = resp.data;
-    toastr.success('${4:...}');
+this.http.fetch(nsApi.url('${1:}', { ${2:} }))
+	.then((resp) => {
+        return resp.json();
+    }).then((data) => {
+    // this.${3:} = data.list;
+    toastr.success('${4:TODO...}');
 });
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

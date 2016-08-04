@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-toastr.info('${1:}');
+toastr.info('${1:TODO...}');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ut-toastr-info</tabTrigger>
