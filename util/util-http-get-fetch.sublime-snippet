@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-this.http.fetch(nsApi.url('${1:}', { ${2:} }))
+http.fetch(nsApi.url('${1:}', { ${2:} }))
     .then((resp) => {
         if (resp.ok) {
             return resp.json().then((data) => {
