@@ -1,17 +1,9 @@
 <snippet>
 	<content><![CDATA[
-$(this.${1:modal}).modal({
-    closable: false,
-    onApprove: () => {
-        
-    },
-    onDeny: () => {
-        
-    }
-});
+import { inject } from 'aurelia-framework';
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>au-md-modal</tabTrigger>
+	<tabTrigger>au-im-inject</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

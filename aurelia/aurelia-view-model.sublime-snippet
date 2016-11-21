@@ -9,7 +9,7 @@ import { EventAggregator } from 'aurelia-event-aggregator';
 @inject(EventAggregator)
 export class ${1:ViewModel} {
 
-    @bindable prop = null;
+    // @bindable prop = null;
 
     /**
      * 构造函数
@@ -17,9 +17,9 @@ export class ${1:ViewModel} {
     constructor(eventAggregator) {
         this.eventAggregator = eventAggregator;
 
-        this.subscribe1 = this.eventAggregator.subscribe('event_xxx', (payload) => {
-
-        });
+        // this.subscribe1 = this.eventAggregator.subscribe('event_xxx', (payload) => {
+        //  
+        // });
 
     }
 
@@ -45,7 +45,7 @@ export class ${1:ViewModel} {
      * 当数据绑定引擎从视图解除绑定时被调用
      */
     unbind() {
-        this.subscribe1.dispose();
+        // this.subscribe1.dispose();
     }
 
     /**
@@ -63,17 +63,6 @@ export class ${1:ViewModel} {
     }
 
     /**
-     * 控制是否可以导航到当前路由视图模型(ViewModel)
-     * @param  {[object]} params                参数
-     * @param  {[object]} routeConfig           路由配置
-     * @param  {[object]} navigationInstruction 导航指令
-     * @return {[boolean | promise]}            返回一个boolean类型, 一个boolean类型延迟许诺(promise)或者一个导航(navigation)命令.
-     */
-    canActivate(params, routeConfig, navigationInstruction) {
-
-    }
-
-    /**
      * 在视图模型(ViewModel)展示前执行一些自定义代码逻辑
      * @param  {[object]} params                参数
      * @param  {[object]} routeConfig           路由配置
@@ -81,22 +70,6 @@ export class ${1:ViewModel} {
      * @return {[promise]}                      你可以可选的返回一个延迟许诺(promise), 告诉路由等待执行bind和attach视图(view), 直到你完成你的处理工作.
      */
     activate(params, routeConfig, navigationInstruction) {
-
-    }
-
-    /**
-     * 控制是否可以导航离开当前路由视图模型(ViewModel)到其它路由视图模型(ViewModel)
-     * @return {[boolean | promise]}            返回一个boolean类型, 一个boolean类型延迟许诺(promise)或者一个导航(navigation)命令.
-     */
-    canDeactivate() {
-
-    }
-
-    /**
-     * 在当前视图模型(ViewModel)切换离开后执行一些自定义代码逻辑
-     * @return {[promise]}                      你可以可选的返回一个延迟许诺(promise), 告诉路由等待, 直到你完成你的处理工作.
-     */
-    deactivate() {
 
     }
 }
