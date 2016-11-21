@@ -11,7 +11,6 @@ this.http.fetch(nsApi.url('${1:}', { ${2:} }))
 
         return resp;
     });
-});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ut-http-get-fetch</tabTrigger>

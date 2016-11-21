@@ -1,24 +1,15 @@
 <snippet>
 	<content><![CDATA[
-import {
-    bindable
-}
-from 'aurelia-framework';
-import {
-    EventAggregator
-}
-from 'aurelia-event-aggregator';
+import { bindable, inject } from 'aurelia-framework';
+import { EventAggregator } from 'aurelia-event-aggregator';
 
 /**
  * ${2:description}
  */
+@inject(EventAggregator)
 export class ${1:ViewModel} {
 
-    @
-    bindable
-    prop = null;
-
-    static inject = [EventAggregator];
+    @bindable prop = null;
 
     /**
      * 构造函数
@@ -26,7 +17,7 @@ export class ${1:ViewModel} {
     constructor(eventAggregator) {
         this.eventAggregator = eventAggregator;
 
-        this.subscribe1 = this.eventAggregator.subscribe('', (payload) => {
+        this.subscribe1 = this.eventAggregator.subscribe('xxx', (payload) => {
 
         });
 

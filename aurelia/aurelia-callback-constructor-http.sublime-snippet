@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-/**
+    /**
      * 构造函数
      */
     constructor(getHttp) {
