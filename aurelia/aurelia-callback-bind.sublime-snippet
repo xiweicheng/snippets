@@ -2,9 +2,10 @@
 	<content><![CDATA[
     /**
      * 当数据绑定引擎绑定到视图时被调用
-     * @param  {[object]} ctx 视图绑定上下文环境对象
+     * @param  {[object]} bindingCtx: The "binding context" to which the component is being bound will be passed first.
+     * @param  {[object]} overrideCtx: The override context contains information used to traverse the parent hierarchy and can also be used to add any contextual properties that the component wants to add.
      */
-    bind(ctx) {
+    bind(bindingCtx, overrideCtx) {
 		${1:}
     }
 ]]></content>

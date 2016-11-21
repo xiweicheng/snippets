@@ -2,9 +2,10 @@
 	<content><![CDATA[
     /**
      * 在视图和视图模型都被创建后调用, 允许访问视图实例对象.
-     * @param  {[object]} view 视图实例对象
+     * @param  {[object]} owningView: This is the view that the component is declared inside of.
+     * @param  {[object]} myView: If the component itself has a view.
      */
-    created(view) {
+    created(owningView, myView)
 		${1:}
     }
 ]]></content>

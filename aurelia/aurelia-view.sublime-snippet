@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
 <template>
-    <require from=""></require>
-    <div class="ui container">
-       ${1:}
+    <require from="./"></require>
+    <div class="nx-">
+	    <div class="ui container">
+	       <h1>${1:}</h1>
+	    </div>
     </div>
 </template>
 ]]></content>

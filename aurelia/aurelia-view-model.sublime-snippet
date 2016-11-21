@@ -4,7 +4,7 @@ import { bindable, inject } from 'aurelia-framework';
 import { EventAggregator } from 'aurelia-event-aggregator';
 
 /**
- * ${2:description}
+ * ${2:}
  */
 @inject(EventAggregator)
 export class ${1:ViewModel} {
@@ -17,7 +17,7 @@ export class ${1:ViewModel} {
     constructor(eventAggregator) {
         this.eventAggregator = eventAggregator;
 
-        this.subscribe1 = this.eventAggregator.subscribe('xxx', (payload) => {
+        this.subscribe1 = this.eventAggregator.subscribe('event_xxx', (payload) => {
 
         });
 
@@ -25,17 +25,19 @@ export class ${1:ViewModel} {
 
     /**
      * 在视图和视图模型都被创建后调用, 允许访问视图实例对象.
-     * @param  {[object]} view 视图实例对象
+     * @param  {[object]} owningView: This is the view that the component is declared inside of.
+     * @param  {[object]} myView: If the component itself has a view.
      */
-    created(view) {
+    created(owningView, myView)
 
     }
 
     /**
      * 当数据绑定引擎绑定到视图时被调用
-     * @param  {[object]} ctx 视图绑定上下文环境对象
+     * @param  {[object]} bindingCtx: The "binding context" to which the component is being bound will be passed first.
+     * @param  {[object]} overrideCtx: The override context contains information used to traverse the parent hierarchy and can also be used to add any contextual properties that the component wants to add.
      */
-    bind(ctx) {
+    bind(bindingCtx, overrideCtx) {
 
     }
 
