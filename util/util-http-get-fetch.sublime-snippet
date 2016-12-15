@@ -1,16 +1,17 @@
 <snippet>
 	<content><![CDATA[
-http.fetch(nsApi.url('${1:}', { ${2:} }))
-    .then((resp) => {
-        if (resp.ok) {
-            return resp.json().then((data) => {
-                // this.detail = data;
-            });
-            toastr.success('${4:TODO...}');
-        }
+http.fetch(nsApi.url('${1:}', {
+    ${2:} 
+})).then((resp) => {
+    if (resp.ok) {
+        return resp.json().then((data) => {
+            // this.detail = data;
+        });
+        toastr.success('${4:TODO...}');
+    }
 
-        return resp;
-    });
+    return resp;
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ut-http-get-fetch</tabTrigger>

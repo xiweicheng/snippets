@@ -28,7 +28,7 @@ export class ${1:ViewModel} {
      * @param  {[object]} owningView: This is the view that the component is declared inside of.
      * @param  {[object]} myView: If the component itself has a view.
      */
-    created(owningView, myView)
+    created(owningView, myView) {
 
     }
 
