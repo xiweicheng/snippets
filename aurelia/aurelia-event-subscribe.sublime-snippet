@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-this.${2:subscribe} = this.eventAggregator.subscribe(nsCons.${1:}, (payload) => {
+this.${2:subscribe} = nxEa.subscribe(nsCons.${1:}, (payload) => {
 	${3:}
 });
 ]]></content>
