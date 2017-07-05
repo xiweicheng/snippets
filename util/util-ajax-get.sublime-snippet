@@ -1,8 +1,10 @@
 <snippet>
 	<content><![CDATA[
-\$.get(`${1:}`, (data) => {
+\$.get(`${1:}`, {
+	${2:}
+}, (data) => {
     if(data.success) {
-        ${2:}
+        ${3:}
     } else {
         toastr.error(data.data);
     }
